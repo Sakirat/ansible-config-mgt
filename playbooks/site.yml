@@ -19,5 +19,5 @@
   import_playbook: ../static-assignments/webservers.yml
 
 - name: import Loadbalancers assignment
-  import_playbook: ../static-assignments/lb.yml
+  import_playbook: ../static-assignments/loadbalancer.yml
   when: load_balancer_is_required 
