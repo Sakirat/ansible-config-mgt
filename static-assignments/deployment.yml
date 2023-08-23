@@ -50,7 +50,7 @@
 
     - name: Download the artifact
       get_url:
-        url: http://18.156.6.36/artifactory/sakiratPBL/php-todo
+        url: http://18.156.6.36:8082/artifactory/sakiratPBL/php-todo
         dest: /home/ec2-user/
         url_username: admin
         url_password: APBKm4qXoDaoE4pTfHAD6iPnJMh  
